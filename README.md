@@ -1,2 +1,2 @@
-# rsconnect-tutorial
-Learning materials for RStudio Connect Health
+# rsconnect-health-tutorial
+Instructional materials for new users to RStudio Connect Health
