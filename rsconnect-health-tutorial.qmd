@@ -36,7 +36,7 @@ To access RStudio Connect Health however, you will first need to have access to 
 
 ![](images/Cisco1.png){width="334"}
 
-2.  Follow the prompts to download and install Cisco Anytime VPN.
+2.  Follow the prompts to download and install Cisco AnyConnect VPN.
 
 ![](images/CiscoDown1.png){width="168"}
 
@@ -44,7 +44,7 @@ To access RStudio Connect Health however, you will first need to have access to 
 
 ![](images/CiscoDown3.png)
 
-2.  Open Cisco Anytime VPN on your desktop.
+2.  Open Cisco AnyConnect VPN on your desktop.
 3.  The first connection must be to: vpn.arizona.edu. Type into the pop-up and click **connect**.
 
 ![](images/Cisco2.png){width="334"}
