@@ -1,5 +1,5 @@
 ---
-title: "RStudio Connect Health Startup Tutorial"
+title: "Posit Connect Health Startup Tutorial"
 format:
   html:
     theme: cosmo
@@ -16,9 +16,9 @@ devtools::install_github("hadley/emo")
 
 # Background
 
-RStudio Connect is a tool that allows for organizational sharing of items published from RStudio such as [Shiny apps](https://shiny.rstudio.com/), interactive graphs and reporting documents (such as this one created with [Quarto](https://quarto.org/)). This document is intended to walk RStudio users through the process of establishing an RStudio Connect account, connecting to RStudio Connect from RStudio, and publishing a document to RStudio Connect.
+Posit Connect (formerly known as RStudio Connect) is a tool that allows for organizational sharing of items published from RStudio such as [Shiny apps](https://shiny.rstudio.com/), interactive graphs and reporting documents (such as this one created with [Quarto](https://quarto.org/)). This document is intended to walk RStudio users through the process of establishing an Posit Connect account, connecting to Posit Connect from RStudio, and publishing a document to Posit Connect.
 
-To access RStudio Connect Health however, you will first need to have access to the Soteria enclave.
+To access Posit Connect Health however, you will first need to have access to the Soteria enclave.
 
 # Request Access to Soteria
 
@@ -42,7 +42,15 @@ To access RStudio Connect Health however, you will first need to have access to 
 
 ![](images/CiscoDown2.png){width="4143"}
 
+::: panel-tabset
+## Mac
+
 ![](images/CiscoDown3.png)
+
+## Windows
+
+![](images/CiscoDown3.2.png){width="3302"}
+:::
 
 2.  Open Cisco AnyConnect VPN on your desktop.
 3.  The first connection must be to: vpn.arizona.edu. Type into the pop-up and click **connect**.
@@ -69,7 +77,7 @@ You are now ready to connect to your Soteria VPN.
 
 ------------------------------------------------------------------------
 
-# RStudio Connect Health
+# Posit Connect Health
 
 ## System Requirements
 
@@ -79,11 +87,11 @@ Posit Connect is supported on multiple operating systems and browsers. For a ful
 
 ### R and R Studio
 
-You will need a current, working version of R and RStudio to publish on RStudio Connect. This website gives step by step instructions: <https://www.dataquest.io/blog/installing-r-on-your-computer/>
+You will need a current, working version of R and RStudio to publish on Posit Connect. This website gives step by step instructions: <https://www.dataquest.io/blog/installing-r-on-your-computer/>
 
-## Establishing an RStudio Connect account
+## Establishing an Posit Connect account
 
-Follow the steps below to begin your publishing journey with RStudio Connect Health:
+Follow the steps below to begin your publishing journey with Posit Connect Health:
 
 1.  Request account access by navigating to the following [link](https://datascience.arizona.edu/analytics-powerhouse/rstudio-connect) and finding the Request Access button near the bottom of the page.
 
@@ -91,21 +99,23 @@ Follow the steps below to begin your publishing journey with RStudio Connect Hea
 
 2.  You will be taken to a survey form to request access. Along with name and contact information, be prepared to supply a copy of published work, such as a Shiny app or GitHub code, and the name of an advisor for approval.
 
-3.  Once your request has been approved, navigate to <https://viz.datascience.arizona.edu> and sign in with your organizational email if you are not automatically signed in. You will see the main navigational screen of RStudio Connect.
+3.  Once your request has been approved, navigate to <https://viz.soteria.arizona.edu> and sign in with your organizational email if you are not automatically signed in. You will see the main navigational screen of Posit Connect.
 
-    The main navigation is at the top of the screen:
+![](images/ReqAccess2.png)
 
-    -   **Content** shows all content you have access to (yours and shared)
+The main navigation is at the top of the screen:
 
-    -   **People** shows collaborators within your network
+-   **Content** shows all content you have access to (yours and shared)
 
-    -   **Documentation** provides further instructional material for use of RStudio Connect.
+-   **People** shows collaborators within your network
+
+-   **Documentation** provides further instructional material for use of Posit Connect.
 
 ![](images/RSConnect_Header.png)
 
-## Connecting RStudio to RStudio Connect
+## Connecting RStudio to Posit Connect
 
-Follow the steps below to connect RStudio with RStudio Connect:
+Follow the steps below to connect RStudio with Posit Connect:
 
 1.  Open R Studio. Select **Tools** \> **Global Options**:
 
@@ -115,7 +125,7 @@ Follow the steps below to connect RStudio with RStudio Connect:
 
 ![](images/RStudioPublishing.png){width="562"}
 
-3.  Click **RStudio Connect**. Paste in the URL of the RStudio Connect server (example: <https://viz.datascience.arizona.edu>) then click **Next**.
+3.  Click **Posit Connect**. Paste in the URL of the Posit Connect server (example: <https://viz.datascience.arizona.edu>) then click **Next**.
 
 ![](images/RStudioConnAcc.png){width="562"}
 
@@ -127,7 +137,7 @@ Follow the steps below to connect RStudio with RStudio Connect:
 
 ![](images/AccntVerify.png){width="562"}
 
-## Publishing to RStudio Connect
+## Publishing to Posit Connect
 
 1.  Once your content is created, click the blue **Publish** button (exists in multiple locations):
 

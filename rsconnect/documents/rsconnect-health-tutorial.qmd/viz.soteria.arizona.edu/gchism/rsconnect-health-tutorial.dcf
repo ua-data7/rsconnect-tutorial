@@ -1,0 +1,13 @@
+name: rsconnect-health-tutorial
+title: rsconnect-health-tutorial
+username: gchism
+account: gchism
+server: viz.soteria.arizona.edu
+hostUrl: https://viz.soteria.arizona.edu/__api__
+appId: 1
+bundleId: 1
+url: https://viz.soteria.arizona.edu:443/content/2b5be950-1968-4454-82a7-61e865105b75/
+when: 1681859739.67504
+lastSyncTime: 1681859739.67505
+asMultiple: FALSE
+asStatic: TRUE
