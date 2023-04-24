@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RStudio Connect Health Startup Tutorial</title>
+<title>Posit Connect Health Startup Tutorial</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,16 +51,16 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#download-and-set-up-cisco-vpn" id="toc-download-and-set-up-cisco-vpn" class="nav-link" data-scroll-target="#download-and-set-up-cisco-vpn">Download and Set up Cisco VPN</a></li>
   <li><a href="#connect-to-soteria-vpn" id="toc-connect-to-soteria-vpn" class="nav-link" data-scroll-target="#connect-to-soteria-vpn">Connect to Soteria VPN</a></li>
   </ul></li>
-  <li><a href="#rstudio-connect-health" id="toc-rstudio-connect-health" class="nav-link" data-scroll-target="#rstudio-connect-health">RStudio Connect Health</a>
+  <li><a href="#posit-connect-health" id="toc-posit-connect-health" class="nav-link" data-scroll-target="#posit-connect-health">Posit Connect Health</a>
   <ul class="collapse">
   <li><a href="#system-requirements" id="toc-system-requirements" class="nav-link" data-scroll-target="#system-requirements">System Requirements</a></li>
   <li><a href="#installation-dependencies" id="toc-installation-dependencies" class="nav-link" data-scroll-target="#installation-dependencies">Installation Dependencies</a>
   <ul class="collapse">
   <li><a href="#r-and-r-studio" id="toc-r-and-r-studio" class="nav-link" data-scroll-target="#r-and-r-studio">R and R Studio</a></li>
   </ul></li>
-  <li><a href="#establishing-an-rstudio-connect-account" id="toc-establishing-an-rstudio-connect-account" class="nav-link" data-scroll-target="#establishing-an-rstudio-connect-account">Establishing an RStudio Connect account</a></li>
-  <li><a href="#connecting-rstudio-to-rstudio-connect" id="toc-connecting-rstudio-to-rstudio-connect" class="nav-link" data-scroll-target="#connecting-rstudio-to-rstudio-connect">Connecting RStudio to RStudio Connect</a></li>
-  <li><a href="#publishing-to-rstudio-connect" id="toc-publishing-to-rstudio-connect" class="nav-link" data-scroll-target="#publishing-to-rstudio-connect">Publishing to RStudio Connect</a></li>
+  <li><a href="#establishing-an-posit-connect-account" id="toc-establishing-an-posit-connect-account" class="nav-link" data-scroll-target="#establishing-an-posit-connect-account">Establishing an Posit Connect account</a></li>
+  <li><a href="#connecting-rstudio-to-posit-connect" id="toc-connecting-rstudio-to-posit-connect" class="nav-link" data-scroll-target="#connecting-rstudio-to-posit-connect">Connecting RStudio to Posit Connect</a></li>
+  <li><a href="#publishing-to-posit-connect" id="toc-publishing-to-posit-connect" class="nav-link" data-scroll-target="#publishing-to-posit-connect">Publishing to Posit Connect</a></li>
   <li><a href="#references-and-further-information" id="toc-references-and-further-information" class="nav-link" data-scroll-target="#references-and-further-information">References and Further Information</a></li>
   </ul></li>
   </ul>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">RStudio Connect Health Startup Tutorial</h1>
+<h1 class="title">Posit Connect Health Startup Tutorial</h1>
 </div>
 
 
@@ -88,8 +88,8 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/cover.png" class="img-fluid" width="349"></p>
 <section id="background" class="level1">
 <h1>Background</h1>
-<p>RStudio Connect is a tool that allows for organizational sharing of items published from RStudio such as <a href="https://shiny.rstudio.com/">Shiny apps</a>, interactive graphs and reporting documents (such as this one created with <a href="https://quarto.org/">Quarto</a>). This document is intended to walk RStudio users through the process of establishing an RStudio Connect account, connecting to RStudio Connect from RStudio, and publishing a document to RStudio Connect.</p>
-<p>To access RStudio Connect Health however, you will first need to have access to the Soteria enclave.</p>
+<p>Posit Connect (formerly known as RStudio Connect) is a tool that allows for organizational sharing of items published from RStudio such as <a href="https://shiny.rstudio.com/">Shiny apps</a>, interactive graphs and reporting documents (such as this one created with <a href="https://quarto.org/">Quarto</a>). This document is intended to walk RStudio users through the process of establishing an Posit Connect account, connecting to Posit Connect from RStudio, and publishing a document to Posit Connect.</p>
+<p>To access Posit Connect Health however, you will first need to have access to the Soteria enclave.</p>
 </section>
 <section id="request-access-to-soteria" class="level1">
 <h1>Request Access to Soteria</h1>
@@ -113,7 +113,17 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><img src="images/CiscoDown1.png" class="img-fluid" width="168"></p>
 <p><img src="images/CiscoDown2.png" class="img-fluid" width="4143"></p>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Mac</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Windows</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p><img src="images/CiscoDown3.png" class="img-fluid"></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><img src="images/CiscoDown3.2.png" class="img-fluid" width="3302"></p>
+</div>
+</div>
+</div>
 <ol start="2" type="1">
 <li>Open Cisco AnyConnect VPN on your desktop.</li>
 <li>The first connection must be to: vpn.arizona.edu. Type into the pop-up and click <strong>connect</strong>.</li>
@@ -141,8 +151,8 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 </section>
-<section id="rstudio-connect-health" class="level1">
-<h1>RStudio Connect Health</h1>
+<section id="posit-connect-health" class="level1">
+<h1>Posit Connect Health</h1>
 <section id="system-requirements" class="level2">
 <h2 class="anchored" data-anchor-id="system-requirements">System Requirements</h2>
 <p>Posit Connect is supported on multiple operating systems and browsers. For a full list see documentation found <a href="https://posit.co/about/platform-support/">here</a> to ensure full machine compatibility.</p>
@@ -151,31 +161,31 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="installation-dependencies">Installation Dependencies</h2>
 <section id="r-and-r-studio" class="level3">
 <h3 class="anchored" data-anchor-id="r-and-r-studio">R and R Studio</h3>
-<p>You will need a current, working version of R and RStudio to publish on RStudio Connect. This website gives step by step instructions: <a href="https://www.dataquest.io/blog/installing-r-on-your-computer/" class="uri">https://www.dataquest.io/blog/installing-r-on-your-computer/</a></p>
+<p>You will need a current, working version of R and RStudio to publish on Posit Connect. This website gives step by step instructions: <a href="https://www.dataquest.io/blog/installing-r-on-your-computer/" class="uri">https://www.dataquest.io/blog/installing-r-on-your-computer/</a></p>
 </section>
 </section>
-<section id="establishing-an-rstudio-connect-account" class="level2">
-<h2 class="anchored" data-anchor-id="establishing-an-rstudio-connect-account">Establishing an RStudio Connect account</h2>
-<p>Follow the steps below to begin your publishing journey with RStudio Connect Health:</p>
+<section id="establishing-an-posit-connect-account" class="level2">
+<h2 class="anchored" data-anchor-id="establishing-an-posit-connect-account">Establishing an Posit Connect account</h2>
+<p>Follow the steps below to begin your publishing journey with Posit Connect Health:</p>
 <ol type="1">
 <li>Request account access by navigating to the following <a href="https://datascience.arizona.edu/analytics-powerhouse/rstudio-connect">link</a> and finding the Request Access button near the bottom of the page.</li>
 </ol>
 <p><img src="images/ReqAccess.png" class="img-fluid"></p>
 <ol start="2" type="1">
 <li><p>You will be taken to a survey form to request access. Along with name and contact information, be prepared to supply a copy of published work, such as a Shiny app or GitHub code, and the name of an advisor for approval.</p></li>
-<li><p>Once your request has been approved, navigate to <a href="https://viz.datascience.arizona.edu" class="uri">https://viz.datascience.arizona.edu</a> and sign in with your organizational email if you are not automatically signed in. You will see the main navigational screen of RStudio Connect.</p>
+<li><p>Once your request has been approved, navigate to <a href="https://viz.datascience.arizona.edu" class="uri">https://viz.datascience.arizona.edu</a> and sign in with your organizational email if you are not automatically signed in. You will see the main navigational screen of Posit Connect.</p>
 <p>The main navigation is at the top of the screen:</p>
 <ul>
 <li><p><strong>Content</strong> shows all content you have access to (yours and shared)</p></li>
 <li><p><strong>People</strong> shows collaborators within your network</p></li>
-<li><p><strong>Documentation</strong> provides further instructional material for use of RStudio Connect.</p></li>
+<li><p><strong>Documentation</strong> provides further instructional material for use of Posit Connect.</p></li>
 </ul></li>
 </ol>
 <p><img src="images/RSConnect_Header.png" class="img-fluid"></p>
 </section>
-<section id="connecting-rstudio-to-rstudio-connect" class="level2">
-<h2 class="anchored" data-anchor-id="connecting-rstudio-to-rstudio-connect">Connecting RStudio to RStudio Connect</h2>
-<p>Follow the steps below to connect RStudio with RStudio Connect:</p>
+<section id="connecting-rstudio-to-posit-connect" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-rstudio-to-posit-connect">Connecting RStudio to Posit Connect</h2>
+<p>Follow the steps below to connect RStudio with Posit Connect:</p>
 <ol type="1">
 <li>Open R Studio. Select <strong>Tools</strong> &gt; <strong>Global Options</strong>:</li>
 </ol>
@@ -185,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><img src="images/RStudioPublishing.png" class="img-fluid" width="562"></p>
 <ol start="3" type="1">
-<li>Click <strong>RStudio Connect</strong>. Paste in the URL of the RStudio Connect server (example: <a href="https://viz.datascience.arizona.edu" class="uri">https://viz.datascience.arizona.edu</a>) then click <strong>Next</strong>.</li>
+<li>Click <strong>Posit Connect</strong>. Paste in the URL of the Posit Connect server (example: <a href="https://viz.datascience.arizona.edu" class="uri">https://viz.datascience.arizona.edu</a>) then click <strong>Next</strong>.</li>
 </ol>
 <p><img src="images/RStudioConnAcc.png" class="img-fluid" width="562"></p>
 <ol start="4" type="1">
@@ -197,8 +207,8 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><img src="images/AccntVerify.png" class="img-fluid" width="562"></p>
 </section>
-<section id="publishing-to-rstudio-connect" class="level2">
-<h2 class="anchored" data-anchor-id="publishing-to-rstudio-connect">Publishing to RStudio Connect</h2>
+<section id="publishing-to-posit-connect" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-to-posit-connect">Publishing to Posit Connect</h2>
 <ol type="1">
 <li>Once your content is created, click the blue <strong>Publish</strong> button (exists in multiple locations):</li>
 </ol>
