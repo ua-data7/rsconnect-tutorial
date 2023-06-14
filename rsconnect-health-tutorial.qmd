@@ -18,6 +18,23 @@ devtools::install_github("hadley/emo")
 
 Posit Connect (formerly known as RStudio Connect) is a tool that allows for organizational sharing of items published from RStudio such as [Shiny apps](https://shiny.rstudio.com/), interactive graphs and reporting documents (such as this one created with [Quarto](https://quarto.org/)). This document is intended to walk RStudio users through the process of establishing an Posit Connect account, connecting to Posit Connect from RStudio, and publishing a document to Posit Connect.
 
+# Best Practices
+
+<details>
+  <summary>Here are some best practices</summary>
+  <p>
+    <ul>
+      <li>Never publish screenshots of data, code, or outputs.</li>
+      <li>To prevent accidental publication to other servers do not download data to local devices unless otherwise instructed,</li>
+      <li>Choose the correct publishing location - viz.soteria.arizona.edu</li>
+      <li>If available, do not select the "Anyone - no login required" under the Posit Connect sharing permissions.</li>
+      <li>Do not copy your API code to an insecure location.</li>
+    </ul>
+  </p>
+</details>
+
+
+
 To access Posit Connect Health however, you will first need to have access to the Soteria enclave.
 
 # Request Access to Soteria

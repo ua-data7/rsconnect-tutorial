@@ -1,0 +1,13 @@
+name: rsconnect-health-tutorial2
+title: rsconnect-health-tutorial
+username: gchism
+account: gchism
+server: viz.datascience.arizona.edu
+hostUrl: https://viz.datascience.arizona.edu/__api__
+appId: 777
+bundleId: 2818
+url: https://viz.datascience.arizona.edu:443/content/be8d75be-8b60-4fcd-be20-b4822d99aab1/
+when: 1686594678.37908
+lastSyncTime: 1686594678.3791
+asMultiple: FALSE
+asStatic: TRUE
